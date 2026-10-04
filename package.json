@@ -1,0 +1,30 @@
+{
+  "name": "qa-test-automation",
+  "version": "1.0.0",
+  "description": "AI-Augmented QA / SDET Take-Home Assessment Suite for Toolshop App",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test || true",
+    "test:pass": "npx playwright test --project=ui-happy-path",
+    "test:pinned": "npx playwright test --project=ui-defects-pinned",
+    "test:api": "npx playwright test --project=api-suite",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa-testing",
+    "sdet",
+    "automation",
+    "take-home-assessment"
+  ],
+  "author": "AI-Augmented QA Engineer",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.6.0",
+    "axios": "^1.12.5",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  }
+}

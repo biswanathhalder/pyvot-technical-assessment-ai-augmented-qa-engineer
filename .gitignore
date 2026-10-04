@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+
+# Test output & reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Environment variables
+.env
+.env.local
+
+# OS & IDE metadata
+.DS_Store
+*.log
+.antigravity-ide/
+.gemini/
